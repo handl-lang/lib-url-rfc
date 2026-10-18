@@ -1,0 +1,21 @@
+name: lib-url-rfc
+root: /home/luis/GitHub/handl-lang/lib-url-rfc
+purpose: ''
+modules:
+- handl-lib-url-rfc
+- lib-url-rfc
+commands:
+- cargo check
+- cargo test --workspace
+provenance:
+  files:
+  - Cargo.toml
+  - src/ops.rs
+  - src/lib.rs
+  hashes:
+  - 1ba15905dbb3c10ee7cee21e8667c4bcddc5c2c9
+  - ac2b78ae3eb772fab984a0710104a39f7acbf09c
+  - 94f67dd67797e7c057be0952017c88ccb8e023b6
+  commit_sha: bbdc6fb6492a98eab9e7efe604ad591218eb1cb2
+  generated_at: '1792281231'
+  generator: kuda/0.1.0
