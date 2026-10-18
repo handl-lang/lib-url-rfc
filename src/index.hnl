@@ -9,3 +9,6 @@ op "url_rfc.url_rfc" : () -> Value
 
 handle "url_rfc.parse" with rust_url_rfc_parse
 handle "url_rfc.url_rfc" with rust_url_rfc_name
+
+--- pure-handl impl:
+from "./parse.hnl" export parse
