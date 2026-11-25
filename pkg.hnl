@@ -1,1 +1,1 @@
-{ modules: ["url_rfc"], description: "The url_rfc parser for the parse port.", license: "MIT" }
+{ modules: ["url_rfc"], name: "url-rfc", description: "The url_rfc parser for the parse port.", license: "MIT" }
